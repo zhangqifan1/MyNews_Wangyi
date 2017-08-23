@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+<ImageView
+    android:padding="3dp"
+    android:id="@+id/tuijian_item4_image"
+    android:src="@mipmap/ic_launcher"
+    android:layout_width="90dp"
+    android:layout_height="70dp" />
+<TextView
+    android:id="@+id/tuijian_item4_tv"
+    android:layout_toRightOf="@id/tuijian_item4_image"
+    android:textSize="14sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+<TextView
+    android:id="@+id/jintian"
+    android:layout_marginTop="40dp"
+    android:text="今天"
+    android:layout_marginLeft="100dp"
+    android:textSize="18sp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+<TextView
+    android:id="@+id/tuijian_item4_tvFol"
+    android:text="xxx跟帖"
+    android:layout_marginTop="40dp"
+    android:layout_alignParentRight="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+</RelativeLayout>

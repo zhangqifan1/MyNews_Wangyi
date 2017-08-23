@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:background="#FAFAFA"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+    <TextView
+        android:padding="5dp"
+        android:id="@+id/tvNumbers"
+        android:textSize="25sp"
+        android:text="N个未读栏目点击进入"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/image_hide"
+            android:layout_marginTop="-5dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/shangjiantou"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp" />
+    </RelativeLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleTop"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <View
+        android:layout_width="match_parent"
+        android:background="#5000"
+        android:layout_height="3dp"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycleBot"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+</LinearLayout>
